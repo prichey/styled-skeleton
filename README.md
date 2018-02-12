@@ -2,9 +2,9 @@
 
 Single file with skeleton.css for your [styled-components](https://styled-components.com/)
 
-Original skeleton.css copied and adapted from [dhg/skeleton.css](https://github.com/dhg/skeleton)
+Original skeleton.css copied and adapted from [dhg/Skeleton](https://github.com/dhg/skeleton)
 
-Structure of this package borrowed from [styled-normalize](https://github.com/sergeysova/styled-normalize)
+Structure borrowed from [styled-normalize](https://github.com/sergeysova/styled-normalize)
 
 
 ## Usage
