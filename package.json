@@ -1,0 +1,48 @@
+{
+  "name": "styled-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton.css for your styled-components",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d dist src",
+    "prepublish": "npm run build",
+    "postversion": "git push origin master --tags && npm publish"
+  },
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prichey/styled-skeleton.git"
+  },
+  "keywords": [
+    "styled",
+    "components",
+    "skeleton",
+    "css",
+    "react",
+    "jss",
+    "styles",
+    "import",
+    "export"
+  ],
+  "author":
+    "Preston Richey <prestonleerichey@gmail.com> (https://prestonrichey.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prichey/styled-skeleton/issues"
+  },
+  "homepage": "https://github.com/prichey/styled-skeleton#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-styled-components": "^1.4.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.22.0",
+    "styled-components": "^3.1.4",
+    "react": "^16.0.0"
+  },
+  "peerDependencies": {
+    "react": ">= 0.14.0 < 17.0.0-0",
+    "styled-components": "^2.0.0 || ^3.1.4"
+  }
+}
